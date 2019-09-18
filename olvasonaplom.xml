@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1">
+    <info>
+        <title>Magas szintű programozási nyelvek 2. Olvasónapló. Kovács Attila Patrik</title>
+        <author/>
+    </info>
+    <sect1>
+        <title>C++</title>
+        <para>A C++ általános célú programozási nyelv, mely lehetővé teszi az obj. orientált és
+            generikus programozást. A C++ a C nyelvre épül: az első C++ forditók C kódot generáltak.
+            A manapság használt forditók tartalmaznak C és C++ forditót is. </para>
+        <para>A C++ támogatja a publikus, privát és statikus objektum kezelést.</para>
+        <para>A main függvénynek két formája létezik: "<emphasis>int main(){}</emphasis>" és
+                "<emphasis>int main(int argc, char* argv[]){}</emphasis>". </para>
+        <para>C++-ban bevezették a bool-t(igaz/hamis).</para>
+        <para>A C++-ban minden olyan helyen állhat változódeklaráció, ahol utasitás állhat. </para>
+        <para>C++ nyelvben az üres paraméterlista egy void paraméterlista megadásával ekvivalens.
+            Ennek az a jelentése, hogy a függvénynek nincs paramétere. A C++ nyelvben megtehetjük,
+            hogy a függvények argumentumainak alapértelmezett értéket adunk meg.</para>
+        <para>Az "<emphasis>int x</emphasis>"-el deklarálunk egy int tipusu változót, az
+                "<emphasis>int* p = &amp;x</emphasis>"-el egy int tipusu mutatót, melynek kezdeti
+            értéke az x változó cime, az "<emphasis>int&amp; r = x</emphasis>"-el pedig int tipusu
+            referenciát hozunk létre, amely az x változóra fog hivatkozni.</para>
+    </sect1>
+    <sect1>
+        <title>Java</title>
+        <para>A Java egy objektumorientált, előforditott, biztonságos, többszálú és dinamikus
+            programozási nyelv. </para>
+        <para>A legtöbb programozási nyelv esetén fordítást vagy értelmezést hajtunk végre, mielőtt
+            a program futna a gépünkön. A Java esetén először a forrásprogramot a fordító egy köztes
+            nyelvre fordítva Java bájtkódot csinál, és ezt a kódot értelmezi és futtatja a Java VM.
+            A Java VM gépi kóddá alakítja a Java bájtkódot.</para>
+        <para>Minden Java alkalmazásnak tartalmaznia kell main metódust. </para>
+        <para>A main metódusnak egy paramétere van, amely sztringek tömbje. Ez a tömb a parancssori
+            paramétereket tartalmazza.</para>
+        <para>Támogatja az egyszeres öröklést. Ha egy objektum megfelel bizonyos feltételeknek,
+            akkor egy másik osztályba sorolható. Pl.: a sedan és coupe autók az autók speciális
+            fajtái,...(leszármazott osztály). </para>
+        <para/>
+    </sect1>
+    <sect1>
+        <title>Python</title>
+        <para>A nyelv egyaránt megfelel néhánysoros scripteknek és többezer soros projekteknek. </para>
+        <para>Szintaxisa viszonylag egyszerű, de jól olvasható programok irhatók vele. </para>
+        <para>Egy hivatkozás számláló mechanizmus segitségével kezeli az erőforrásokat(memória,
+            filehandlerek,...), ami hasonlit a JAVA-ban előforduló garbage collectorhoz. </para>
+        <para>Python esetén nincs szükség forditásra. </para>
+        <para>A pythoban nincsenek pointerek. </para>
+        <para>Objektum orientált nyelv. </para>
+        <para>A többszörös öröklést és az operátor overloadingot is támogatja. Minden adat
+            objektumként szerepel. </para>
+        <para>Viszonylag sok csomagot és beépitett eljárást tartalmaz, ezért komolyabb programok
+            irására is alkalmas. </para>
+    </sect1>
+    <sect1>
+        <title>C++ vs Java</title>
+        <para>C++ esetén foglalkoznunk kell a memóriaszemét problémájával, amig Java esetén
+            automatikusan történik a dolog: egy ún. garbace collector végzi. </para>
+        <para>A C++ támogatja a egyszeres és többszörös öröklést, mig a Java nem támogatja a
+            többszörös öröklést. </para>
+        <para>A C++-al ellentétben a Java észleli a futás közbeni hibákat. </para>
+        <para>A C++-al ellentétben a Java teljesen objektum orientált nyelv. </para>
+        <para>A Java esetén minden objektum referencia. </para>
+    </sect1>
+</article>
